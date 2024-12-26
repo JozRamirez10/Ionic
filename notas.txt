@@ -1,0 +1,18 @@
+Iniciar proyecto en ionic:
+    ionic start nombre blank
+    * blank -> Plantilla
+
+Crear tus propios iconos
+    npm install @capacitor/assets --save-dev
+    - Tener una estructura dentro de la carpeta 'resources'
+    npx capacitor-assets generate
+
+Plugin - Local Storage:
+    npm install @capacitor/preferences
+
+Compilar un proyecto
+    ionic capacitor build [plataforma]
+    * No ejecutar como sudo 
+
+Dependencia para usar el flash del móvil
+    npm install @capgo/capacitor-flash
