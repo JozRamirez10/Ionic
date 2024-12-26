@@ -1,0 +1,24 @@
+.no-scroll{
+  --overflow: hidden;
+}
+
+.center-content{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Vertical
+@media(orientation: portrait){
+  .center-content{
+    font-size: 16em;
+  }
+}
+
+// Horizontal
+@media(orientation: landscape){
+  .center-content{
+    font-size: 9em;
+  }
+}
