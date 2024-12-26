@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Mi lista de compras
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <ion-item>
+    <ion-input label="item" type="text" [(ngModel)]="item" 
+      name="item"
+    />
+    <ion-button (click)="addItem()" [disabled]="!item"> <!-- Cuando item está vacío -->
+      <ion-icon name="add-outline"></ion-icon>
+    </ion-button>
+  </ion-item>
+
+ </ion-content>
