@@ -16,3 +16,15 @@ Compilar un proyecto
 
 Dependencia para usar el flash del móvil
     npm install @capgo/capacitor-flash
+
+CapacitorHttp se habilita en capacitor.config.ts
+    plugins : {
+        CapacitorHttp: {
+        enabled: true
+        }
+    }
+
+Controlar la orientación de la pantalla
+    npm install cordova-plugin-screen-orientation
+    npm install @awesome-cordova-plugins/screen-orientation
+    ionic cap sync
