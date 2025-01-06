@@ -28,3 +28,23 @@ Controlar la orientación de la pantalla
     npm install cordova-plugin-screen-orientation
     npm install @awesome-cordova-plugins/screen-orientation
     ionic cap sync
+
+Idioma del teléfono
+    npm install @capacitor/device
+
+Dependencias para traducciones
+    npm install @ngx-translate/core
+    npm install @ngx-translate/http-loader
+
+Gestor de estados de la app
+    Permite proyectos escalables con mayor facilidad
+    npm install @ngxs/store --save
+    npm install -g @ngxs/cli 
+
+Herramientas
+    npm install lodash-es
+
+Stripe - Para el control de pagos
+    npm install @capacitor-community/stripe
+    npm install @stripe-elements/stripe-elements 
+        Solo para la parte web
